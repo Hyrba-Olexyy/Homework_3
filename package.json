@@ -1,0 +1,45 @@
+{
+  "name": "homework_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server/server.js",
+  "scripts": {
+    "start": "node ./src/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyrba-Olexyy/Homework_3.git"
+  },
+  "author": "Oleksii-Hyrba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyrba-Olexyy/Homework_3/issues"
+  },
+  "homepage": "https://github.com/Hyrba-Olexyy/Homework_3#readme",
+  "devDependencies": {
+    "commitizen": "4.2.4",
+    "eslint": "8.18.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "body-parser": "1.20.0",
+    "compression": "1.7.4",
+    "cookie-parser": "1.4.6",
+    "cors": "2.8.5",
+    "express": "4.18.1",
+    "helmet": "5.1.0",
+    "joi": "17.6.0",
+    "mongoose": "6.4.0"
+  }
+}
